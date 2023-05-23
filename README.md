@@ -26,4 +26,4 @@ PHP, MySQL, HTML, CSS ve Bootstrap kullanılarak geliştirilen bir manav sipari�
 
 Herhangi bir hata bulduğunuzda veya bir iyileştirme öneriniz varsa lütfen bir konu(issue) açın.
 
-Site linki: [Manav Sipariş Uygulaması](http://manavsiparis.great-site.net/){:target="_blank"}
+Site linki: [Manav Sipariş Uygulaması](http://manavsiparis.great-site.net/)
