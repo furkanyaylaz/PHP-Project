@@ -1,6 +1,6 @@
 # Manav Sipariş Uygulaması
 
-Bu, PHP, MySQL, HTML ve Bootstrap kullanılarak geliştirilen bir manav sipariş uygulamasıdır. 
+PHP, MySQL, HTML, CSS ve Bootstrap kullanılarak geliştirilen bir manav sipariş uygulamasıdır. 
 
 ## Özellikler
 
