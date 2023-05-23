@@ -14,7 +14,7 @@ if ($conn->connect_error) {
     die("Veritabanı bağlantısı başarısız: " . $conn->connect_error);
 }
 
-// Kullanıcı adının veritabanında kullanılıp kullanılmadığını kontrol et
+// Kullanıcı adının veritabanında kullanılıp kullanılmadığını kontrol etme
 $sql = "SELECT * FROM users WHERE username = '$username'";
 $result = $conn->query($sql);
 
@@ -23,7 +23,7 @@ if ($result->num_rows > 0) {
     exit;
 }
 
-// Kullanıcı bilgilerini veritabanına ekle
+// Kullanıcı bilgilerini veritabanına ekleme
 $sql = "INSERT INTO users (email, name, surname, address, phone, username, password)
         VALUES ('$email', '$name', '$surname', '$address', '$phone', '$username', '$password')";
 
